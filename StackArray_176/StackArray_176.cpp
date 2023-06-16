@@ -48,7 +48,7 @@ public:
 			cout << "\nStack is empty." << endl;
 		}
 		else {
-			for (int tmp = 0; tmp <= top; tmp++) {
+			for (int tmp = top; tmp >= 0; tmp--) {
 				cout << stack_array[tmp] << endl;
 			}
 		}
@@ -56,5 +56,19 @@ public:
 };
 
 int main() {
+	StackArray s;
+	char ch;
+	while (true) {
+		cout << endl;
+		cout << "\n***Stack Menu***\n";
+		cout << "1. Push\n";
+		cout << "2. Pop\n";
+		cout << "3. Display\n";
+		cout << "4. Exit\n";
+		cout << "\nEnter your choice: ";
+		cin >> ch;
+		switch (ch) {
 
+		}
+	}
 }
