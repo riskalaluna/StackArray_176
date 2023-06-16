@@ -68,7 +68,13 @@ int main() {
 		cout << "\nEnter your choice: ";
 		cin >> ch;
 		switch (ch) {
-
+		case '1': {
+			cout << "\nEnter an Element: ";
+			int element;
+			cin >> element;
+			s.push(element);
+			break;
+		}
 		}
 	}
 }
