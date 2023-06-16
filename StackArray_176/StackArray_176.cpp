@@ -19,5 +19,12 @@ public:
 			cout << "Number of data exceeds the lisit." << endl;
 			return 0;
 		}
+
+		top++;
+		stack_array[top] = element; //step 3
+		cout << endl;
+		cout << element << "ditambahkan(pushed)" << endl;
+
+		return element;
 	}
 };
